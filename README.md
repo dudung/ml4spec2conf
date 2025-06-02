@@ -1,5 +1,5 @@
 # ml4spec2conf
-Prediction of particle configuration from scattering cross section spectra using machine learning
+Prediction of particle linear configuration from scattering cross section spectra using machine learning
 
 ## contributors
 + [Sparisoma Viridi](https://github.com/dudung)
