@@ -8,6 +8,6 @@ Prediction of particle linear configuration from scattering cross section spectr
 + [Nazla Innaya](https://github.com/NazlaInnaya95)
 
 
-## previos version
+## previous version
 + [ml4spectra2config-2](https://github.com/dudung/ml4spectra2config-2)
 + [ml4spectra2config](https://github.com/dudung/ml4spectra2config)
