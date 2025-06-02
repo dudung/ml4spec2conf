@@ -1,4 +1,4 @@
-# ml4spec2conf
+# ml4spec2linconf
 Prediction of particle linear configuration from scattering cross section spectra using machine learning
 
 ## contributors
