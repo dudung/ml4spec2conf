@@ -14,14 +14,14 @@ Prediction of particle linear configuration from scattering cross section spectr
 
 
 ## virtual environment
-To create virtual environment
+To create virtual environment in `v:\mlvenv` folder
 
 ```
 $ py -m venv v:\mlvenv
 ```
 
 ## packages
-To install all packages in `requirements.txt`
+To install all packages listed in `requirements.txt`
 
 ```
 $ v:\mlvenv\Scripts\activate
