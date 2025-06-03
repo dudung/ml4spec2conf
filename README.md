@@ -26,7 +26,6 @@ To update pip if necessary in the virtual environment
 ```
 $ v:\mlvenv\Scripts\activate
 $ py -m pip install --upgrade pip
-$ deactivate
 ```
 
 ## packages
@@ -35,7 +34,6 @@ To install all packages listed in `requirements.txt`
 ```
 $ v:\mlvenv\Scripts\activate
 $ pip install -r requirements.txt
-$ deactivate
 ```
 
 ## jupyter notebook
@@ -44,5 +42,4 @@ To launch Jupypter Notebook
 ```
 $ v:\mlvenv\Scripts\activate
 $ jupyter notebook
-$ deactivate
 ```
