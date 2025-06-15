@@ -1,80 +1,102 @@
 Model: LR
 confusion matrix:
- [[1]]
+ [[221   6  32]
+ [  0 215  82]
+ [  0  48 247]]
 classification report: 
                precision    recall  f1-score   support
 
-           1       1.00      1.00      1.00         1
+           0       1.00      0.85      0.92       259
+           1       0.80      0.72      0.76       297
+           2       0.68      0.84      0.75       295
 
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
+    accuracy                           0.80       851
+   macro avg       0.83      0.80      0.81       851
+weighted avg       0.82      0.80      0.81       851
 
 =====================================================
 Model: LDA
 confusion matrix:
- [[1]]
+ [[218  17  24]
+ [ 45 183  69]
+ [ 37  65 193]]
 classification report: 
                precision    recall  f1-score   support
 
-           1       1.00      1.00      1.00         1
+           0       0.73      0.84      0.78       259
+           1       0.69      0.62      0.65       297
+           2       0.67      0.65      0.66       295
 
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
+    accuracy                           0.70       851
+   macro avg       0.70      0.70      0.70       851
+weighted avg       0.70      0.70      0.69       851
 
 =====================================================
 Model: KNN
 confusion matrix:
- [[1]]
+ [[244   2  13]
+ [  2 281  14]
+ [ 15   8 272]]
 classification report: 
                precision    recall  f1-score   support
 
-           1       1.00      1.00      1.00         1
+           0       0.93      0.94      0.94       259
+           1       0.97      0.95      0.96       297
+           2       0.91      0.92      0.92       295
 
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
+    accuracy                           0.94       851
+   macro avg       0.94      0.94      0.94       851
+weighted avg       0.94      0.94      0.94       851
 
 =====================================================
 Model: CART
 confusion matrix:
- [[1]]
+ [[243   0  16]
+ [  0 291   6]
+ [ 23   0 272]]
 classification report: 
                precision    recall  f1-score   support
 
-           1       1.00      1.00      1.00         1
+           0       0.91      0.94      0.93       259
+           1       1.00      0.98      0.99       297
+           2       0.93      0.92      0.92       295
 
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
+    accuracy                           0.95       851
+   macro avg       0.95      0.95      0.95       851
+weighted avg       0.95      0.95      0.95       851
 
 =====================================================
 Model: NB
 confusion matrix:
- [[0 0]
- [1 0]]
+ [[227  26   6]
+ [125 149  23]
+ [ 61 153  81]]
 classification report: 
                precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00       0.0
-           1       0.00      0.00      0.00       1.0
+           0       0.55      0.88      0.68       259
+           1       0.45      0.50      0.48       297
+           2       0.74      0.27      0.40       295
 
-    accuracy                           0.00       1.0
-   macro avg       0.00      0.00      0.00       1.0
-weighted avg       0.00      0.00      0.00       1.0
+    accuracy                           0.54       851
+   macro avg       0.58      0.55      0.52       851
+weighted avg       0.58      0.54      0.51       851
 
 =====================================================
 Model: SVM
 confusion matrix:
- [[1]]
+ [[219   2  38]
+ [  0 284  13]
+ [  0   9 286]]
 classification report: 
                precision    recall  f1-score   support
 
-           1       1.00      1.00      1.00         1
+           0       1.00      0.85      0.92       259
+           1       0.96      0.96      0.96       297
+           2       0.85      0.97      0.91       295
 
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
+    accuracy                           0.93       851
+   macro avg       0.94      0.92      0.93       851
+weighted avg       0.93      0.93      0.93       851
 
 =====================================================
