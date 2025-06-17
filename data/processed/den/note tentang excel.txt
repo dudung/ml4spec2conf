@@ -1,0 +1,20 @@
+result(nrow,1) = lam_max1;
+result(nrow,2) = Csc_max1;
+result(nrow,3) = lam_min;
+result(nrow,4) = Csc_min;
+result(nrow,5) = lam_fwhm1;
+result(nrow,6) = C_mid;
+result(nrow,7) = lam_max2;
+result(nrow,8) = Csc_max2;
+result(nrow,9) = lam_fwhm2;
+result(nrow,10) = p1; #posisi ke-1
+result(nrow,11) = p2; #posisi ke-2
+result(nrow,12) = p3; #posisi ke-3
+result(nrow,13) = p4; #posisi ke-4
+result(nrow,14) = p5; #posisi ke-5
+result(nrow,15) = a1; #arah_k
+result(nrow,16) = a2; #arah_E
+result(nrow,17) = a3; #arah_sumbu putar
+result(nrow,18) = d1; #bilangan pertama sudut
+result(nrow,19) = d2; #bilangan kedua sudut
+

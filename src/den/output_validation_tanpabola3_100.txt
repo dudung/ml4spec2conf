@@ -1,0 +1,88 @@
+Model: LR
+confusion matrix:
+ [[1]]
+classification report: 
+               precision    recall  f1-score   support
+
+           2       1.00      1.00      1.00         1
+
+    accuracy                           1.00         1
+   macro avg       1.00      1.00      1.00         1
+weighted avg       1.00      1.00      1.00         1
+
+=====================================================
+Model: LDA
+confusion matrix:
+ [[0 0]
+ [1 0]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       0.0
+           2       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+=====================================================
+Model: KNN
+confusion matrix:
+ [[0 0]
+ [1 0]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       0.0
+           2       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+=====================================================
+Model: CART
+confusion matrix:
+ [[0 0]
+ [1 0]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       0.0
+           2       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+=====================================================
+Model: NB
+confusion matrix:
+ [[0 0]
+ [1 0]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       0.0
+           2       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+=====================================================
+Model: SVM
+confusion matrix:
+ [[0 0]
+ [1 0]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       0.0
+           2       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+=====================================================
