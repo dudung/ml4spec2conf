@@ -1,0 +1,102 @@
+Model: LR
+confusion matrix:
+ [[ 42   0  21]
+ [ 16 102 274]
+ [  0   6 178]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       0.72      0.67      0.69        63
+           1       0.94      0.26      0.41       392
+           2       0.38      0.97      0.54       184
+
+    accuracy                           0.50       639
+   macro avg       0.68      0.63      0.55       639
+weighted avg       0.76      0.50      0.47       639
+
+=====================================================
+Model: LDA
+confusion matrix:
+ [[ 42   0  21]
+ [ 16 102 274]
+ [  0   6 178]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       0.72      0.67      0.69        63
+           1       0.94      0.26      0.41       392
+           2       0.38      0.97      0.54       184
+
+    accuracy                           0.50       639
+   macro avg       0.68      0.63      0.55       639
+weighted avg       0.76      0.50      0.47       639
+
+=====================================================
+Model: KNN
+confusion matrix:
+ [[ 42   0  21]
+ [  8 194 190]
+ [  0 106  78]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       0.84      0.67      0.74        63
+           1       0.65      0.49      0.56       392
+           2       0.27      0.42      0.33       184
+
+    accuracy                           0.49       639
+   macro avg       0.59      0.53      0.54       639
+weighted avg       0.56      0.49      0.51       639
+
+=====================================================
+Model: CART
+confusion matrix:
+ [[ 40   0  23]
+ [  0  54 338]
+ [  0 115  69]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       1.00      0.63      0.78        63
+           1       0.32      0.14      0.19       392
+           2       0.16      0.38      0.22       184
+
+    accuracy                           0.26       639
+   macro avg       0.49      0.38      0.40       639
+weighted avg       0.34      0.26      0.26       639
+
+=====================================================
+Model: NB
+confusion matrix:
+ [[ 42   0  21]
+ [  4 280 108]
+ [  0 121  63]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       0.91      0.67      0.77        63
+           1       0.70      0.71      0.71       392
+           2       0.33      0.34      0.34       184
+
+    accuracy                           0.60       639
+   macro avg       0.65      0.57      0.60       639
+weighted avg       0.61      0.60      0.61       639
+
+=====================================================
+Model: SVM
+confusion matrix:
+ [[ 40   0  23]
+ [  0  12 380]
+ [  0   0 184]]
+classification report: 
+               precision    recall  f1-score   support
+
+           0       1.00      0.63      0.78        63
+           1       1.00      0.03      0.06       392
+           2       0.31      1.00      0.48       184
+
+    accuracy                           0.37       639
+   macro avg       0.77      0.56      0.44       639
+weighted avg       0.80      0.37      0.25       639
+
+=====================================================

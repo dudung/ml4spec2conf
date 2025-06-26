@@ -1,0 +1,807 @@
+=========================( 1 )==========================
+Model: LR
+confusion matrix:
+ [[20]]
+classification report: 
+ accuracy = 1.0
+    precision  recall  f1-score
+2        1.0     1.0       1.0
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[20]]
+classification report: 
+ accuracy = 1.0
+    precision  recall  f1-score
+2        1.0     1.0       1.0
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[ 0  0]
+ [13  7]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        0.0    0.00  0.000000
+2        1.0    0.35  0.518519
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 0  0]
+ [13  7]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        0.0    0.00  0.000000
+2        1.0    0.35  0.518519
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[ 0  0]
+ [13  7]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        0.0    0.00  0.000000
+2        1.0    0.35  0.518519
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[20]]
+classification report: 
+ accuracy = 1.0
+    precision  recall  f1-score
+2        1.0     1.0       1.0
+------------------------------------------------------------
+=========================( 2 )==========================
+Model: LR
+confusion matrix:
+ [[ 1  7]
+ [ 1 11]]
+classification report: 
+ accuracy = 0.6
+    precision    recall  f1-score
+1   0.500000  0.125000  0.200000
+2   0.611111  0.916667  0.733333
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 1  7]
+ [ 1 11]]
+classification report: 
+ accuracy = 0.6
+    precision    recall  f1-score
+1   0.500000  0.125000  0.200000
+2   0.611111  0.916667  0.733333
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[1 7]
+ [7 5]]
+classification report: 
+ accuracy = 0.3
+    precision    recall  f1-score
+1   0.125000  0.125000  0.125000
+2   0.416667  0.416667  0.416667
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[0 8]
+ [8 4]]
+classification report: 
+ accuracy = 0.2
+    precision    recall  f1-score
+1   0.000000  0.000000  0.000000
+2   0.333333  0.333333  0.333333
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[7 1]
+ [9 3]]
+classification report: 
+ accuracy = 0.5
+    precision  recall  f1-score
+1     0.4375   0.875  0.583333
+2     0.7500   0.250  0.375000
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[ 0  8]
+ [ 0 12]]
+classification report: 
+ accuracy = 0.6
+    precision  recall  f1-score
+1        0.0     0.0      0.00
+2        0.6     1.0      0.75
+------------------------------------------------------------
+=========================( 3 )==========================
+Model: LR
+confusion matrix:
+ [[ 0  0  0]
+ [ 1  5 14]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.25
+    precision  recall  f1-score
+0        0.0    0.00       0.0
+1        1.0    0.25       0.4
+2        0.0    0.00       0.0
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 0  0  0]
+ [ 1  5 14]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.25
+    precision  recall  f1-score
+0        0.0    0.00       0.0
+1        1.0    0.25       0.4
+2        0.0    0.00       0.0
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[11  9]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.55
+    precision  recall  f1-score
+1        1.0    0.55  0.709677
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 6 14]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.3
+    precision  recall  f1-score
+1        1.0     0.3  0.461538
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[14  6]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.7
+    precision  recall  f1-score
+1        1.0     0.7  0.823529
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[ 1 19]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.05
+    precision  recall  f1-score
+1        1.0    0.05  0.095238
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+=========================( 4 )==========================
+Model: LR
+confusion matrix:
+ [[ 5 15]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.25
+    precision  recall  f1-score
+1        1.0    0.25       0.4
+2        0.0    0.00       0.0
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 5 15]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.25
+    precision  recall  f1-score
+1        1.0    0.25       0.4
+2        0.0    0.00       0.0
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[ 0  0  0]
+ [ 1 11  8]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.55
+    precision  recall  f1-score
+0        0.0    0.00  0.000000
+1        1.0    0.55  0.709677
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 7 13]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        1.0    0.35  0.518519
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[15  5]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.75
+    precision  recall  f1-score
+1        1.0    0.75  0.857143
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[ 2 18]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.1
+    precision  recall  f1-score
+1        1.0     0.1  0.181818
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+=========================( 5 )==========================
+Model: LR
+confusion matrix:
+ [[20]]
+classification report: 
+ accuracy = 1.0
+    precision  recall  f1-score
+2        1.0     1.0       1.0
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[20]]
+classification report: 
+ accuracy = 1.0
+    precision  recall  f1-score
+2        1.0     1.0       1.0
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[ 0  0]
+ [14  6]]
+classification report: 
+ accuracy = 0.3
+    precision  recall  f1-score
+1        0.0     0.0  0.000000
+2        1.0     0.3  0.461538
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 0  0]
+ [16  4]]
+classification report: 
+ accuracy = 0.2
+    precision  recall  f1-score
+1        0.0     0.0  0.000000
+2        1.0     0.2  0.333333
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[ 0  0]
+ [14  6]]
+classification report: 
+ accuracy = 0.3
+    precision  recall  f1-score
+1        0.0     0.0  0.000000
+2        1.0     0.3  0.461538
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[20]]
+classification report: 
+ accuracy = 1.0
+    precision  recall  f1-score
+2        1.0     1.0       1.0
+------------------------------------------------------------
+=========================( 6 )==========================
+Model: LR
+confusion matrix:
+ [[ 7 13]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        1.0    0.35  0.518519
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 7 13]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        1.0    0.35  0.518519
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[ 8 12]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.4
+    precision  recall  f1-score
+1        1.0     0.4  0.571429
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 0 20]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.0
+    precision  recall  f1-score
+1        0.0     0.0       0.0
+2        0.0     0.0       0.0
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[13  7]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.65
+    precision  recall  f1-score
+1        1.0    0.65  0.787879
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[ 0 20]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.0
+    precision  recall  f1-score
+1        0.0     0.0       0.0
+2        0.0     0.0       0.0
+------------------------------------------------------------
+=========================( 7 )==========================
+Model: LR
+confusion matrix:
+ [[ 0  0  2]
+ [ 0  4 14]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.2
+    precision    recall  f1-score
+0        0.0  0.000000  0.000000
+1        1.0  0.222222  0.363636
+2        0.0  0.000000  0.000000
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 0  0  2]
+ [ 0  4 14]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.2
+    precision    recall  f1-score
+0        0.0  0.000000  0.000000
+1        1.0  0.222222  0.363636
+2        0.0  0.000000  0.000000
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[ 0  0  2]
+ [ 0  7 11]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.35
+    precision    recall  f1-score
+0        0.0  0.000000      0.00
+1        1.0  0.388889      0.56
+2        0.0  0.000000      0.00
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 0  0  2]
+ [ 0  1 17]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.05
+    precision    recall  f1-score
+0        0.0  0.000000  0.000000
+1        1.0  0.055556  0.105263
+2        0.0  0.000000  0.000000
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[ 0  0  2]
+ [ 0 12  6]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.6
+    precision    recall  f1-score
+0        0.0  0.000000       0.0
+1        1.0  0.666667       0.8
+2        0.0  0.000000       0.0
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[ 0  0  2]
+ [ 0  0 18]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.0
+    precision  recall  f1-score
+0        0.0     0.0       0.0
+1        0.0     0.0       0.0
+2        0.0     0.0       0.0
+------------------------------------------------------------
+=========================( 8 )==========================
+Model: LR
+confusion matrix:
+ [[14  6]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.7
+    precision  recall  f1-score
+0        1.0     0.7  0.823529
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[14  6]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.7
+    precision  recall  f1-score
+0        1.0     0.7  0.823529
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[14  6]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.7
+    precision  recall  f1-score
+0        1.0     0.7  0.823529
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[13  7]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.65
+    precision  recall  f1-score
+0        1.0    0.65  0.787879
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[14  6]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.7
+    precision  recall  f1-score
+0        1.0     0.7  0.823529
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[13  7]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.65
+    precision  recall  f1-score
+0        1.0    0.65  0.787879
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+=========================( 9 )==========================
+Model: LR
+confusion matrix:
+ [[ 0  0  0]
+ [ 1  4 15]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.2
+    precision  recall  f1-score
+0        0.0     0.0  0.000000
+1        1.0     0.2  0.333333
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 0  0  0]
+ [ 1  4 15]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.2
+    precision  recall  f1-score
+0        0.0     0.0  0.000000
+1        1.0     0.2  0.333333
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[ 9 11]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.45
+    precision  recall  f1-score
+1        1.0    0.45   0.62069
+2        0.0    0.00   0.00000
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 7 13]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        1.0    0.35  0.518519
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[17  3]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.85
+    precision  recall  f1-score
+1        1.0    0.85  0.918919
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[ 1 19]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.05
+    precision  recall  f1-score
+1        1.0    0.05  0.095238
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+=========================( 10 )==========================
+Model: LR
+confusion matrix:
+ [[ 7 13]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        1.0    0.35  0.518519
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 7 13]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        1.0    0.35  0.518519
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[12  8]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.6
+    precision  recall  f1-score
+1        1.0     0.6      0.75
+2        0.0     0.0      0.00
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 0 20]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.0
+    precision  recall  f1-score
+1        0.0     0.0       0.0
+2        0.0     0.0       0.0
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[13  7]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.65
+    precision  recall  f1-score
+1        1.0    0.65  0.787879
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[ 0 20]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.0
+    precision  recall  f1-score
+1        0.0     0.0       0.0
+2        0.0     0.0       0.0
+------------------------------------------------------------
+=========================( 11 )==========================
+Model: LR
+confusion matrix:
+ [[ 3 17]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.15
+    precision  recall  f1-score
+1        1.0    0.15   0.26087
+2        0.0    0.00   0.00000
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 3 17]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.15
+    precision  recall  f1-score
+1        1.0    0.15   0.26087
+2        0.0    0.00   0.00000
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[10 10]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.5
+    precision  recall  f1-score
+1        1.0     0.5  0.666667
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 5 15]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.25
+    precision  recall  f1-score
+1        1.0    0.25       0.4
+2        0.0    0.00       0.0
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[17  3]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.85
+    precision  recall  f1-score
+1        1.0    0.85  0.918919
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[ 0 20]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.0
+    precision  recall  f1-score
+1        0.0     0.0       0.0
+2        0.0     0.0       0.0
+------------------------------------------------------------
+=========================( 12 )==========================
+Model: LR
+confusion matrix:
+ [[ 0  0  0]
+ [ 1  5 14]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.25
+    precision  recall  f1-score
+0        0.0    0.00       0.0
+1        1.0    0.25       0.4
+2        0.0    0.00       0.0
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 0  0  0]
+ [ 1  5 14]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.25
+    precision  recall  f1-score
+0        0.0    0.00       0.0
+1        1.0    0.25       0.4
+2        0.0    0.00       0.0
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[ 0  0  0]
+ [ 1 11  8]
+ [ 0  0  0]]
+classification report: 
+ accuracy = 0.55
+    precision  recall  f1-score
+0        0.0    0.00  0.000000
+1        1.0    0.55  0.709677
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 7 13]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        1.0    0.35  0.518519
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[15  5]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.75
+    precision  recall  f1-score
+1        1.0    0.75  0.857143
+2        0.0    0.00  0.000000
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[ 2 18]
+ [ 0  0]]
+classification report: 
+ accuracy = 0.1
+    precision  recall  f1-score
+1        1.0     0.1  0.181818
+2        0.0     0.0  0.000000
+------------------------------------------------------------
+=========================( 13 )==========================
+Model: LR
+confusion matrix:
+ [[ 0  0]
+ [ 1 19]]
+classification report: 
+ accuracy = 0.95
+    precision  recall  f1-score
+1        0.0    0.00  0.000000
+2        1.0    0.95  0.974359
+------------------------------------------------------------
+Model: LDA
+confusion matrix:
+ [[ 0  0]
+ [ 1 19]]
+classification report: 
+ accuracy = 0.95
+    precision  recall  f1-score
+1        0.0    0.00  0.000000
+2        1.0    0.95  0.974359
+------------------------------------------------------------
+Model: KNN
+confusion matrix:
+ [[ 0  0]
+ [11  9]]
+classification report: 
+ accuracy = 0.45
+    precision  recall  f1-score
+1        0.0    0.00   0.00000
+2        1.0    0.45   0.62069
+------------------------------------------------------------
+Model: CART
+confusion matrix:
+ [[ 0  0]
+ [12  8]]
+classification report: 
+ accuracy = 0.4
+    precision  recall  f1-score
+1        0.0     0.0  0.000000
+2        1.0     0.4  0.571429
+------------------------------------------------------------
+Model: NB
+confusion matrix:
+ [[ 0  0]
+ [13  7]]
+classification report: 
+ accuracy = 0.35
+    precision  recall  f1-score
+1        0.0    0.00  0.000000
+2        1.0    0.35  0.518519
+------------------------------------------------------------
+Model: SVM
+confusion matrix:
+ [[20]]
+classification report: 
+ accuracy = 1.0
+    precision  recall  f1-score
+2        1.0     1.0       1.0
+------------------------------------------------------------
